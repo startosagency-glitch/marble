@@ -1,0 +1,281 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact Us | Marble ACS</title>
+    <meta name="description" content="Contact Marble ACS to discuss your marble, natural stone and interior design requirements.">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header class="header">
+        <a href="index.html" class="logo">
+            <img src="images/logo.png" alt="Marble ACS Logo">
+        </a>
+
+        <button class="menu-toggle"
+                aria-label="Open navigation"
+                aria-expanded="false">
+            ☰
+        </button>
+
+        <nav class="nav">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="profile.html">Profile</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html" class="nav-contact active">
+                Contact Us ↗
+            </a>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- CONTACT HERO -->
+        <section class="contact-hero">
+            <div class="contact-hero-content">
+                <span class="eyebrow">MARBLE ACS / GET IN TOUCH</span>
+
+                <h1>
+                    Let's Talk About<br>
+                    <span>Your Next Project.</span>
+                </h1>
+
+                <p>
+                    Have an idea, a space to transform or a question
+                    about natural stone? We'd love to hear from you.
+                </p>
+
+                <div class="contact-breadcrumb">
+                    <a href="index.html">Home</a>
+                    <span>/</span>
+                    <span>Contact Us</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT MAIN -->
+        <section class="contact-main">
+
+            <!-- CONTACT INFORMATION -->
+            <aside class="contact-information">
+
+                <span class="eyebrow">CONTACT INFORMATION</span>
+                <h2>Let's start<br><span>a conversation.</span></h2>
+
+                <p class="contact-info-intro">
+                    Share your requirements with us, and let's
+                    explore the possibilities for your project.
+                </p>
+
+                <div class="contact-detail">
+                    <span class="contact-detail-icon">✉</span>
+                    <div>
+                        <span class="contact-detail-label">EMAIL</span>
+                        <!-- Replace with your real business email -->
+                        <a href="mailto:YOUR-EMAIL@example.com">
+                            YOUR-EMAIL@example.com
+                        </a>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <span class="contact-detail-icon">⌖</span>
+                    <div>
+                        <span class="contact-detail-label">LOCATION</span>
+                        <p>Contact us for our office location.</p>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <span class="contact-detail-icon">◷</span>
+                    <div>
+                        <span class="contact-detail-label">BUSINESS HOURS</span>
+                        <p>Contact our team for availability.</p>
+                    </div>
+                </div>
+
+                <div class="contact-social">
+                    <span class="contact-detail-label">LET'S CONNECT</span>
+                    <!-- Replace # with your actual social media URL -->
+                    <a href="#" aria-label="Instagram">Instagram ↗</a>
+                </div>
+
+            </aside>
+
+            <!-- CONTACT FORM -->
+            <div class="contact-form-panel">
+
+                <span class="eyebrow">PROJECT ENQUIRY</span>
+                <h2>Tell us about your project.</h2>
+
+                <p class="contact-form-description">
+                    Complete the form below and choose how you'd
+                    like to send your enquiry.
+                </p>
+
+                <form id="contactForm" class="contact-form">
+
+                    <div class="contact-field-row">
+
+                        <div class="contact-field">
+                            <label for="contactName">Full Name *</label>
+                            <input type="text"
+                                   id="contactName"
+                                   name="name"
+                                   placeholder="Your full name"
+                                   autocomplete="name"
+                                   required>
+                        </div>
+
+                        <div class="contact-field">
+                            <label for="contactEmail">Email Address *</label>
+                            <input type="email"
+                                   id="contactEmail"
+                                   name="email"
+                                   placeholder="you@example.com"
+                                   autocomplete="email"
+                                   required>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-field-row">
+
+                        <div class="contact-field">
+                            <label for="contactPhone">Phone Number</label>
+                            <input type="tel"
+                                   id="contactPhone"
+                                   name="phone"
+                                   placeholder="Your phone number"
+                                   autocomplete="tel">
+                        </div>
+
+                        <div class="contact-field">
+                            <label for="contactService">Service Required *</label>
+                            <select id="contactService"
+                                    name="service"
+                                    required>
+                                <option value="">Select a service</option>
+                                <option value="Luxury Interiors">Luxury Interiors</option>
+                                <option value="Natural Stone">Natural Stone</option>
+                                <option value="Floors and Finishes">Floors &amp; Finishes</option>
+                                <option value="Marble Consultation">Marble Consultation</option>
+                                <option value="Other Enquiry">Other Enquiry</option>
+                            </select>
+                        </div>
+
+                    </div>
+
+                    <div class="contact-field">
+                        <label for="contactSubject">Project Subject</label>
+                        <input type="text"
+                               id="contactSubject"
+                               name="subject"
+                               placeholder="What is your project about?">
+                    </div>
+
+                    <div class="contact-field">
+                        <label for="contactMessage">Your Message *</label>
+                        <textarea id="contactMessage"
+                                  name="message"
+                                  rows="5"
+                                  placeholder="Tell us about your requirements..."
+                                  required></textarea>
+                    </div>
+
+                    <p class="contact-form-note">
+                        Choose an option below to send your enquiry.
+                    </p>
+
+                    <div class="contact-form-actions">
+                        <button type="submit"
+                                class="btn btn-gold">
+                            Send via Email ↗
+                        </button>
+
+                        <button type="button"
+                                id="whatsappContact"
+                                class="btn btn-whatsapp">
+                            WhatsApp Us ↗
+                        </button>
+                    </div>
+
+                    <p id="contactFormStatus"
+                       class="contact-form-status"
+                       role="status"
+                       aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+        <!-- LOCATION / MAP PLACEHOLDER -->
+        <section class="contact-location">
+
+            <div>
+                <span class="eyebrow">FIND MARBLE ACS</span>
+                <h2>Let's connect.</h2>
+                <p>
+                    Get in touch with our team to confirm our location
+                    and arrange a project discussion.
+                </p>
+            </div>
+
+            <div class="location-placeholder">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3608.5545508541636!2d51.47530341082801!3d25.251924177582687!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e45db501d141c27%3A0xecbb42117e1ef678!2zQWR2YW5jZWQgY29udHJhY3Rpbmcgc3lzdGVtcyAtINin2YTZhdiq2YLYr9mF2Kkg2YTZhNix2K7Yp9mFINmI2KfZhNis2LHYp9mG2YrYqg!5e0!3m2!1sen!2sqa!4v1792069563267!5m2!1sen!2sqa" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+</div>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+
+        <a href="index.html" class="footer-logo">
+            <img src="images/logo.png" alt="Marble ACS Logo">
+        </a>
+
+        <p>Natural materials. Timeless spaces.</p>
+
+        <div class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="profile.html">Profile</a>
+            <a href="blog.html">Blog</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+
+        <div class="footer-bottom">
+            <span>© <span id="year"></span> Marble ACS</span>
+            <span>Crafted with attention to detail.</span>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+
+    <a
+  href="https://wa.me/97433117412"
+  class="whatsapp-float"
+  target="_blank"
+  rel="noopener noreferrer"
+  aria-label="Chat with Marble ACS on WhatsApp"
+  title="Chat with us on WhatsApp"
+>
+  <svg viewBox="0 0 32 32" aria-hidden="true">
+    <path fill="currentColor" d="M16 .8A15.1 15.1 0 0 0 3.1 23.7L1 31l7.5-2A15.2 15.2 0 1 0 16 .8Zm0 27.5a12.4 12.4 0 0 1-6.3-1.7l-.5-.3-4.5 1.2 1.2-4.4-.3-.5A12.4 12.4 0 1 1 16 28.3Zm6.8-9.3c-.4-.2-2.1-1-2.5-1.1-.3-.1-.6-.2-.8.2s-.9 1.1-1.1 1.3-.4.3-.8.1a10.1 10.1 0 0 1-3-1.9 11.2 11.2 0 0 1-2.1-2.6c-.2-.4 0-.6.2-.8l.6-.7.4-.7c.1-.2 0-.5 0-.7l-1.1-2.6c-.3-.7-.6-.6-.8-.6h-.7c-.2 0-.6.1-.9.5-.3.3-1.2 1.2-1.2 2.9s1.3 3.3 1.5 3.5c.2.2 2.5 3.8 6.1 5.3.9.4 1.6.6 2.1.7.9.3 1.7.2 2.3.1.7-.1 2.1-.9 2.4-1.8.3-.9.3-1.7.2-1.8-.1-.2-.3-.3-.7-.5Z"/>
+  </svg>
+</a>
+
+</body>
+</html>
